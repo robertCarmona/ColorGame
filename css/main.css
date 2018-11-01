@@ -53,20 +53,22 @@ span{
 
 #stripe{
     background: white;
-    height: 30px;
+    height: auto;
 }
 
 .selected{
-    background: blue;
+    background: steelblue;
+    color:white;
 }
 
 button{
-    border: none;
+    border: 1px solid steelblue;
+    border-radius: 10px;
     background: none;
     text-transform: uppercase;
     height: 100%;
     font-weight: 700;
-    color: steelblue;
+    color: #232323;
     letter-spacing: 1px;
     font-size: inherit;
     transition: all 0.3s;
